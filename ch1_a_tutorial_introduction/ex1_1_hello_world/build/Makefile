@@ -15,7 +15,7 @@ SRC_DIR = ../src
 VPATH   = $(SRC_DIR)
 
 # Target Executable
-TARGET = hello
+TARGET = hello.out
 
 # Source files
 SOURCES = hello.c
