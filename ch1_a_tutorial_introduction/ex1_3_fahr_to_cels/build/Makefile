@@ -15,10 +15,10 @@ SRC_DIR = ../src
 VPATH   = $(SRC_DIR)
 
 # Target Executable
-TARGET = invalidChar.out
+TARGET = fahrToCels.out
 
 # Source files
-SOURCES = invalidChar.c
+SOURCES = fahrToCels.c
 
 # Object files
 OBJECTS = $(SOURCES:.c=.o)
