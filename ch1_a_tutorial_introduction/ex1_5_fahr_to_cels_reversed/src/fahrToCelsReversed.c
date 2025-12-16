@@ -37,11 +37,10 @@ int main(void)
 	
 	printf("Degrees[F]    Degrees[C]\n");
 
-    while (fahr <= upper)
+    for (fahr = upper; fahr >= lower; fahr -= step)
     {
         celsius = scale * (fahr - offset);   /* convert degrees fahrenheit into degrees celsius */
         printf("%c%c%3.0f\t\t%6.1f\n",ASCII_SPACE, ASCII_SPACE,fahr, celsius); 
-        fahr = fahr + step;                  /* increment degrees fahrenheit by step size */
     }
 
     return result;

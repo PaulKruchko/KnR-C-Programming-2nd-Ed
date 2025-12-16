@@ -10,8 +10,7 @@
  * x = Temperatuer in degrees celsius
  * b = offset between the two measurement scales
  * 
- * @param [out] result Indicates if the program executed successfully or not
- * @param [in]  void 
+ * @param [out] result Indicates if the program executed successfully or not 
 */
 
 #define SUCCESS 0U
