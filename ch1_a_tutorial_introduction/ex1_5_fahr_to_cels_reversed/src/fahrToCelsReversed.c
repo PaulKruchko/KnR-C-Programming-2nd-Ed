@@ -32,7 +32,7 @@ int main(void)
     fahr = lower; /* init fahrenheit scale with the lowerst range */
     
     printf("/********************************************/\n");
-	printf("*********** Fahrenheit to Celcius ************\n");
+	printf(" ********** Fahrenheit to Celcius *********** \n");
 	printf("/********************************************/\n");
 	
 	printf("Degrees[F]    Degrees[C]\n");
@@ -40,7 +40,7 @@ int main(void)
     for (fahr = upper; fahr >= lower; fahr -= step)
     {
         celsius = scale * (fahr - offset);   /* convert degrees fahrenheit into degrees celsius */
-        printf("%c%c%3.0f\t\t%6.1f\n",ASCII_SPACE, ASCII_SPACE,fahr, celsius); 
+        printf("%c%c%3.0f\t\t%6.1f\n", ASCII_SPACE, ASCII_SPACE, fahr, celsius); 
     }
 
     return result;
