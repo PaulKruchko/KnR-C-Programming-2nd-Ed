@@ -3,7 +3,7 @@
 /**
  * @brief Prints input one word per line.
  * 
- * @return int Exit status of the program.
+ * @return [out] result Indicates if the program executed successfully or not.
  */
 int main()
 {
